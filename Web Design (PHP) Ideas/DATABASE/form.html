@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Output of the Form</title>
+<style>
+input,textarea{padding:10px;margin:10px;align:center;width:480px;box-shadow:2px 2px 15px grey;}
+</style>
+</head>
+<body bgcolor="blue">
+<h1 align="center">Registration Form</h1>
+<form method="post" action="output.php">
+<input type="text" name="name" required autofocus placeholder="Enter your Name" /><br/>
+<input type="email" name="email" required placeholder="Enter your Email" /><br/>
+<input type="password" name="pass" required placeholder="Enter your Password" /><br/>
+<input type="text" name="no" required placeholder="Enter your Mobile Number" maxlength="10" /><br/>
+<textarea name="address" required placeholder="Enter your Address" rows="3"></textarea>
+<input type="submit" value="Save" />
+</form>
+</body>
+</html>
