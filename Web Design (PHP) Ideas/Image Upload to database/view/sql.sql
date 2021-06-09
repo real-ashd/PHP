@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS `tbl_images` (  
+  `id` int(11) NOT NULL AUTO_INCREMENT,  
+  `name` blob NOT NULL,  
+  PRIMARY KEY (`id`)  
+ ) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
