@@ -1,0 +1,5 @@
+<?php
+ 
+$od =  openddir("mydocs");
+ 
+?>
